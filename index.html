@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mis cuentas</title>
+  <meta name="description" content="Apunta lo que entra y lo que gastas cada mes.">
+  <meta name="theme-color" content="#0b6e4f">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app">
+    <div class="center"><div class="spinner"></div><p>Cargando…</p></div>
+  </main>
+
+  <div id="backdrop" class="backdrop" hidden></div>
+  <div id="sheet" class="sheet" role="dialog" aria-modal="true" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

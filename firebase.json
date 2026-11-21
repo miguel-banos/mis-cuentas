@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", "firestore.rules", "LEEME.md", "README.md", "docs/**", "*.exe", "**/.*"],
+    "headers": [
+      {
+        "source": "**/*.@(js|html|json|css)",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

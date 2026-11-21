@@ -1,0 +1,10 @@
+# Caché y registros de Firebase CLI
+.firebase/
+*-debug.log
+
+# Herramienta de Firebase (demasiado grande para git)
+*.exe
+
+# Sistema
+Thumbs.db
+.DS_Store
